@@ -1,8 +1,8 @@
 # Vivek Jain
 
-**Backend Software Engineer** — Java · Spring Boot · Microservices · AWS
+**Software Engineer** — Java · Spring Boot · Microservices · AWS
 
-📍 Bangalore, India · 📧 [vivek.jainism@gmail.com](mailto:vivek.jainism@gmail.com) · 🔗 [LinkedIn](https://linkedin.com/in/vivekworks) · 💻 [GitHub](https://github.com/jainismvivek)
+📍 Bangalore, India · 📧 [vivek.jainism@gmail.com](mailto:vivek.jainism@gmail.com) · 🔗 [LinkedIn](https://linkedin.com/in/vivekworks) 
 
 ---
 
@@ -19,26 +19,28 @@ Currently building the OTA extranet platform behind Scapia at Tarento.
 ### Tarento Group — Software Engineer
 **Nov 2025 – Present · Bangalore**
 
-- Collaborated with a lean cross-functional team on Scapia's OTA extranet platform — from database schema modelling to AWS resource planning for a multi-tenant architecture built from scratch.
-- Designed and developed RESTful APIs in Java Spring Boot for bidirectional channel manager integration, with real-time rate synchronization and booking confirmation workflows inside a multi-module Gradle microservices architecture.
-- Built core backend modules for property onboarding, calendar-based availability, and ARI (Availability, Rates & Inventory) configuration using Spring Data JPA and Hibernate ORM, with exception handling and validation tuned for consistency across distributed services.
-- Integrated Scapia's extranet as a supplier into existing catalog systems, enabling end-to-end inventory distribution across channel managers — as an individual contributor on critical backend modules under active production deployment on AWS (RDS, S3, EC2).
+- Built an OTA extranet platform from scratch for Scapia — participating in system design discussions and leading development of the property onboarding module and Extranet-ARI service, enabling hoteliers to manage multi-property inventory, dynamic pricing, and real-time availability distribution across channel managers using Java Spring Boot microservices on AWS.
+Built an AI agent using LangChain4j that reads channel-manager integration logs (STAAH CM, AxisRoom) and automatically tags each failure as a rate mismatch, inventory sync error, or mapping issue — cutting down manual log review time during ARI integration debugging.
+-Engineered RESTful APIs for bidirectional channel manager integration, implementing real-time rate synchronization and booking confirmation workflows with a multi-module Gradle architecture, while contributing to system design decisions including database schema modeling and AWS resource planning (RDS, S3, EC2).
+-Owned the reject flow end-to-end — persistence of rejection metadata, API contracts, and structured remark handling with admin vs. merchant visibility rules — and collaborated on STAAH CM and AxisRoom channel manager integrations for availability/rates/room inventory, covering mapping, sync/error paths, and operational monitoring.
+-Integrated Scapia Extranet as a direct supplier into the platform's hotel service, giving direct pricing and commission control over Scapia inventory — contributing to a ~20% rise in commission earned per booking and stronger negotiating leverage with hoteliers.
 
 ### Pump Academy — Software Engineer
 **Feb 2025 – Jul 2025 · Bangalore**
 
-- Developed and maintained enterprise Java Spring Boot microservices for the iPUMPNET platform, implementing RESTful APIs that reduced API response time by 30%.
-- Optimized application performance by identifying slow MySQL queries, implementing Redis caching strategies, and running performance monitoring for real-time data processing workflows.
-- Gained exposure to ML/AI integration workflows and data pipelines, supporting backend services that interfaced with analytical and predictive models.
+-Re-engineered REST APIs for iPUMPNET's Java Spring Boot microservices, reducing average response time by ~30% through query and payload optimization — improving real-time monitoring reliability for connected pump installations.
+-Identified and resolved slow MySQL queries, introducing Redis caching on high-traffic endpoints, reducing database load and eliminating latency spikes during peak sensor-data ingestion.
+-Worked across the data pipeline feeding iPUMPNET's predictive-maintenance models, structuring raw sensor telemetry into clean inputs — helping the team flag pump anomalies earlier and reduce unplanned downtime for field installations.
+-Collaborated with cross-functional engineers on CI/CD and deployment processes, contributing to consistent release cycles for a real-time industrial monitoring platform.
 
 ### Azentio — Software Engineer Trainee
 **Feb 2023 – Sep 2024 · Hyderabad**
 
-- Designed and developed backend microservices using Spring Boot, Spring Data JPA, and Hibernate ORM for an enterprise AML compliance platform serving banking clients under strict regulatory requirements.
-- Implemented secure authentication and authorization using Spring Security, ensuring compliant access management across enterprise banking applications.
-- Established CI/CD pipelines with automated testing using Maven and Docker, participated in peer code reviews, and resolved production issues that sustained 99% uptime for critical banking clients.
+-Built backend microservices in Spring Boot, Spring Data JPA, and Hibernate for AMLock, an enterprise AML compliance product used by banking clients under strict regulatory requirements.
+-Implemented authentication and role-based authorization using Spring Security, enforcing access control and audit logging in line with banking compliance and IAM standards.
+-Supported AMLock's compliance reporting accuracy, helping reduce manual reconciliation effort for compliance teams reviewing flagged transactions.
+-Set up CI/CD pipelines (Maven, Docker) with automated test gates, contributed to peer code reviews, and resolved production issues that helped sustain 99% uptime for banking clients.
 
----
 
 ## Featured Project
 
